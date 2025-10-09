@@ -107,7 +107,7 @@
               />
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-pagination z-2"></div>
         </div>
       </div>
       <div class="container-lg mt-20">
@@ -160,7 +160,7 @@
             </div>
             <div class="swiper-slide">
               <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                class="d-flex flex-column-reverse justify-content-center align-items-center text-decoration-none text-black"
                 href="#"
               >
                 لوازم تحریر<img src="./public/img/Stationary-Icon.jpg" alt=""
@@ -207,14 +207,21 @@
       <div class="container-lg mt-10 d-flex flex-row">
         <div class="swiper Swiper-res-2">
           <div class="swiper-wrapper d-flex align-items-center">
-            <div class="swiper-slide">
+            <div class="swiper-slide overflow-hidden p-5 h-100">
               <a
-                style="width: 90%; height: 260px; background-color: #bc264b"
+                style="
+                  width: fit-content;
+                  height: 260px;
+                  background-color: #bc264b;
+                  padding: 50px;
+                  padding-top: 350px;
+                  margin: 0;
+                "
                 href="#"
-                class="d-flex flex-column justify-content-center align-items-center rounded-2"
+                class="rounded-2 d-flex flex-column justify-content-center align-items-center text-decoration-none"
               >
                 <div
-                  style="top: -60px"
+                  style="top: -220px"
                   class="d-flex flex-column justify-content-center align-items-center gap-4 position-relative"
                 >
                   <div class="text-white">مشاهده همه ></div>
@@ -238,7 +245,7 @@
                   </div>
                 </div>
                 <img
-                  style="bottom: -35px"
+                  style="height: 50%; bottom: 90px"
                   class="position-absolute"
                   src="./public/img/file.webp"
                   alt=""
@@ -437,8 +444,10 @@
         </div>
       </div>
       <div class="container-lg mt-10 radif-img">
-        <div class="row">
-          <div class="col-6 col-md-3 d-flex justify-content-center">
+        <div class="row g-3">
+          <div
+            class="col-6 col-md-3 d-flex justify-content-center align-items-center"
+          >
             <img
               class="rounded-2"
               style="height: 145px"
@@ -446,7 +455,9 @@
               alt=""
             />
           </div>
-          <div class="col-6 col-md-3 d-flex justify-content-center">
+          <div
+            class="col-6 col-md-3 d-flex justify-content-center align-items-center"
+          >
             <img
               class="rounded-2"
               style="height: 145px"
@@ -454,7 +465,10 @@
               alt=""
             />
           </div>
-          <div class="col-6 col-md-3 d-flex justify-content-center">
+
+          <div
+            class="col-6 col-md-3 d-flex justify-content-center align-items-center"
+          >
             <img
               class="rounded-2"
               style="height: 145px"
@@ -462,7 +476,9 @@
               alt=""
             />
           </div>
-          <div class="col-6 col-md-3 d-flex justify-content-center">
+          <div
+            class="col-6 col-md-3 d-flex justify-content-center align-items-center"
+          >
             <img
               class="rounded-2"
               style="height: 145px"
@@ -878,32 +894,46 @@
               />
             </div>
           </div>
-          <div class="swiper-pagination"></div>
+          <div class="swiper-pagination z-2"></div>
         </div>
       </div>
       <div
         class="container-lg mt-10 radif d-flex flex-column justify-content-center align-items-center"
       >
         <h2 class="h2">برندهای منتخب</h2>
-        <div class="row w-100">
-          <span class="d-none d-md-block col-md"></span>
-          <img
-            class="col-3 col-md"
-            src="/public/img/David_jones_1.jpg"
-            alt=""
-          />
-          <img
-            class="col-3 col-md"
-            src="/public/img/Novin_Leather.jpg"
-            alt=""
-          />
-          <img class="col-3 col-md" src="/public/img/Serge_1.jpg" alt="" />
-          <img class="col-3 col-md" src="/public/img/REES_1.jpg" alt="" />
-          <img class="col-3 col-md" src="/public/img/Hydroderm.jpg" alt="" />
-          <img class="col-3 col-md" src="/public/img/Mel_Moj_1.jpg" alt="" />
-          <img class="col-3 col-md" src="/public/img/Berttonix_1.jpg" alt="" />
-          <img class="col-3 col-md" src="/public/img/Mante.jpg" alt="" />
-          <span class="d-none d-md-block col-md"></span>
+        <div class="row justify-content-center align-items-center g-0 g-md-2">
+          <div class="row col-12 col-md-6 g-1">
+            <img
+              class="col-3 col-md-3"
+              src="/public/img/David_jones_1.jpg"
+              alt=""
+            />
+            <img
+              class="col-3 col-md-3"
+              src="/public/img/Novin_Leather.jpg"
+              alt=""
+            />
+            <img class="col-3 col-md-3" src="/public/img/Serge_1.jpg" alt="" />
+            <img class="col-3 col-md-3" src="/public/img/REES_1.jpg" alt="" />
+          </div>
+          <div class="row col-12 col-md-6 g-1">
+            <img
+              class="col-3 col-md-3"
+              src="/public/img/Hydroderm.jpg"
+              alt=""
+            />
+            <img
+              class="col-3 col-md-3"
+              src="/public/img/Mel_Moj_1.jpg"
+              alt=""
+            />
+            <img
+              class="col-3 col-md-3"
+              src="/public/img/Berttonix_1.jpg"
+              alt=""
+            />
+            <img class="col-3 col-md-3" src="/public/img/Mante.jpg" alt="" />
+          </div>
         </div>
       </div>
       <div class="container-lg mt-10 mb-5">
@@ -1018,7 +1048,7 @@
       <div class="mx-auto d-flex justify-content-center align-items-center row">
         <div class="p-4 pb-5 col-12 col-md-6">
           <h2 class="h2">فروشگاه اینترنتی مدیسه</h2>
-          <p class="paragraph fs-4 mb-3">
+          <p class="paragraph fs-5 text-center mb-3">
             فروشگاه اینترنتی مدیسه که فعالیت خود را سال ۱۳۹۴ آغاز کرده، امروز به
             یک فروشگاه چندمنظوره پویا و جامع تبدیل شده است. ما در مدیسه افتخار
             داریم که طیف گسترده‌ای از محصولات شامل پوشاک و لوازم متنوع برای
@@ -1060,8 +1090,7 @@
         </div>
       </div>
       <div
-        class="navigation-panel d-block container d-md-none position-fixed bottom-0"
-        style="right: 0%"
+        class="navigation-panel d-block container d-md-none position-sticky bottom-0 z-3 mx-auto"
       >
         <ul
           class="d-flex justify-content-evenly align-items-center rounded-pill p-2"
@@ -1114,7 +1143,7 @@
         </ul>
       </div>
       <!-- bug fix me :) -->
-      <div class="call-up position-fixed d-none d-md-block rounded-circle">
+      <div class="call-up position-fixed d-none d-md-block rounded-circle z-3">
         <a
           class="d-flex justify-content-center align-items-center scroll"
           href="#"
