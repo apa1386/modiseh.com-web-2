@@ -1,0 +1,42 @@
+jupyter lab
+/*custom modules */
+.paragraph {
+  height: fit-content;
+  width: fit-content;
+  text-align: justify;
+  padding: 40px;
+}
+.container-c {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-r {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.fcc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fccc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mt-10 {
+  margin-top: 50px;
+}
+.mt-20 {
+  margin-top: 70px;
+}

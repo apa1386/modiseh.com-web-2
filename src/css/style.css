@@ -1,0 +1,75 @@
+/* import */
+@import url(./modules/Import-modules.css);
+
+/* adjustment */
+
+/* header */
+.gif {
+  height: 42px;
+}
+/* main */
+.card {
+  height: 80%;
+  .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+.radif {
+  img {
+    width: 108px;
+    height: 108px;
+    transition: 0.3s ease-in-out;
+    z-index: 2;
+    &:hover {
+      border: 2px solid #bc264b;
+      background: rgba(188, 38, 75, 0.5);
+    }
+  }
+}
+.radif-img {
+  img {
+    width: 100%;
+  }
+}
+
+#swiper-dokmeh {
+  height: 100%;
+  width: 35%;
+  gap: 100px;
+  a {
+    color: #fff;
+    background-color: #bc264b;
+    &:hover {
+      background-color: red;
+    }
+  }
+}
+
+.call-up {
+  width: 50px;
+  height: 50px;
+  bottom: 15px;
+  left: 15px;
+  box-shadow: 3px 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.navigation-panel {
+  ul {
+    background-color: #f0f0f0;
+    font-size: 8px;
+    .andis {
+      top: 6%;
+      right: 60%;
+      z-index: 4;
+      background: linear-gradient(311.58deg, #dd4f02 14.63%, #ffd200 90.04%);
+    }
+    img {
+      width: 23px;
+      height: 23px;
+    }
+  }
+}
+
+/* footer */
