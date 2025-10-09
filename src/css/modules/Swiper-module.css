@@ -37,10 +37,12 @@
 .swiper-pagination-bullet {
   width: 10px;
   height: 10px;
-  background-color: #161616;
+  background-color: rgb(44, 44, 44) !important;
+  border: 0;
 }
 .swiper-pagination-bullet-active {
-  background: #f74d4d;
+  background-color: #f74d4d !important;
+
   border-radius: 999px;
   width: 24px;
   height: 8px;

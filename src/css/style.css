@@ -10,11 +10,15 @@
 /* main */
 .card {
   height: 80%;
+  border-radius: 8px;
   .card-text {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
+  }
+  img {
+    border-radius: 16px;
   }
 }
 .radif {
