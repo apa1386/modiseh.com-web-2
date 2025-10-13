@@ -1,5 +1,5 @@
 /* import */
 @import url(../../../node_modules/swiper/swiper-bundle.min.css);
 @import url(./Reset-module.css);
-@import url(./Custom-modules.css);
 @import url(./Swiper-module.css);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");

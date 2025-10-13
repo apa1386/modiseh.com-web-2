@@ -26,17 +26,20 @@
       />
     </div>
     <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-      <div class="container-md d-flex">
+      <div
+        class="container-md d-flex justify-content-between align-items-start"
+      >
         <a class="d-none d-md-inline-block navbar-brand" href="#">
           <img src="./public/img/logo.png" width="120" height="auto" />
         </a>
-        <div class="d-none d-md-block w-100">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <div
+          class="d-flex flex-column-reverse justify-content-center align-items-center"
+        >
+          <ul
+            class="navbar-nav d-none d-md-flex flex-row me-auto mb-2 mb-lg-0 w-100 gap-2"
+          >
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link active" aria-current="page" href="#">خانه</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -46,7 +49,7 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown
+                پوشاک
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
@@ -57,30 +60,129 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                پوشاک
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                پوشاک
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                پوشاک
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                پوشاک
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                پوشاک
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
             </li>
           </ul>
-          <form class="d-flex" role="search">
+          <form
+            class="d-flex justify-content-center align-items-center w-100"
+            role="search"
+          >
             <input
               class="form-control me-2"
               type="search"
               placeholder="Search"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
+            <img
+              src="./public/img/coin_2.png"
+              style="width: 25px; height: 25px; left: 15px"
+              class="position-relative z-n1"
+              alt=""
+            />
           </form>
         </div>
-        <input
-          type="search"
-          placeholder="جستجو کنید ..."
-          name=""
-          id=""
-          class=""
-        />
-        <img src="" alt="" class="" />
+        <div
+          class="d-flex justify-content-between align-items-center gap-3 position-relative"
+          style="top: 15px"
+        >
+          <a href=""><i class="bi bi-bag text-dark"></i></a>
+          <a href="" class="text-decoration-none text-dark"
+            ><span> وارد شوید</span></a
+          >
+        </div>
       </div>
     </nav>
 
