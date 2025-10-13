@@ -13,7 +13,7 @@
   </head>
   <body>
     <!-- header -->
-    <div class="gif w-100">
+    <div class="gif w-100 mb-2">
       <img
         class="d-lg-none w-100"
         src="./public/img/20251004-mobile-1.gif"
@@ -25,7 +25,64 @@
         alt=""
       />
     </div>
-    <nav></nav>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+      <div class="container-md d-flex">
+        <a class="d-none d-md-inline-block navbar-brand" href="#">
+          <img src="./public/img/logo.png" width="120" height="auto" />
+        </a>
+        <div class="d-none d-md-block w-100">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+        <input
+          type="search"
+          placeholder="جستجو کنید ..."
+          name=""
+          id=""
+          class=""
+        />
+        <img src="" alt="" class="" />
+      </div>
+    </nav>
 
     <!-- main  -->
     <main class="vstack">
@@ -1025,7 +1082,9 @@
           </div>
         </div>
       </div>
-      <div class="mx-auto d-flex justify-content-center align-items-center row">
+      <div
+        class="container d-flex justify-content-center align-items-center row"
+      >
         <div class="p-4 pb-5 col-12 col-md-6">
           <h2 class="h2">فروشگاه اینترنتی مدیسه</h2>
           <p class="paragraph fs-5 text-center mb-3">
@@ -1070,7 +1129,7 @@
         </div>
       </div>
       <div
-        class="navigation-panel d-block container d-md-none position-sticky bottom-0 z-3 mx-auto"
+        class="navigation-panel fixed-bottom d-block container d-md-none z-3 mx-auto"
       >
         <ul
           class="d-flex justify-content-evenly align-items-center rounded-pill p-2"

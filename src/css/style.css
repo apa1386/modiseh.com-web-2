@@ -3,6 +3,10 @@
 
 /* adjustment */
 
+.mt-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 /* header */
 .gif {
   height: 42px;
