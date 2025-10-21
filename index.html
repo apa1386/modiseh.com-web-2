@@ -13,14 +13,14 @@
   </head>
   <body>
     <!-- header -->
-    <div class="gif w-100 mb-2">
+    <div class="gif w-100 mb-2" style="height: 50px">
       <img
-        class="d-lg-none w-100"
+        class="d-lg-none w-100 h-100"
         src="./public/img/20251004-mobile-1.gif"
         alt=""
       />
       <img
-        class="d-none d-lg-block w-100"
+        class="d-none d-lg-block w-100 h-100"
         src="./public/img/20251004-desktop-1.gif"
         alt=""
       />
@@ -38,10 +38,10 @@
           <ul
             class="navbar-nav d-none d-md-flex flex-row me-auto mb-2 mb-lg-0 w-100 gap-2"
           >
-            <li class="nav-item">
+            <li class="nav-item w-100">
               <a class="nav-link active" aria-current="page" href="#">خانه</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown w-100 position-relative">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -49,18 +49,359 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                پوشاک
+                مردانه
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+              <ul
+                class="dropdown-menu"
+                style="width: 70vw; position: absolute; right: -20vw !important"
+              >
+                <div class="row w-100">
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/clothes/"
+                          >لباس زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/manto/"
+                          >مانتو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/coat/"
+                          >کت و جلیقه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/sarafan/"
+                          >سارافون و وست زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/scarf/"
+                          >شال و روسری و مقنعه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/trouser/"
+                          >شلوار زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-jacket/"
+                          >کاپشن زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-raincoat/"
+                          >بارانی زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-puffer/"
+                          >پافر زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/knitwear/"
+                          >بافت و سویشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/palto/">
+                          پالتو زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/top"
+                          >تاپ و نیم تنه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/t-shirt/"
+                          >تیشرت و پولوشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/blouse/"
+                          >بلوز زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-tunic/"
+                          >تونیک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/trouser/jumpsuit/"
+                          >سرهمی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shomiz/"
+                          >شومیز</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shorts/"
+                          >شلوارک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/skirt/"
+                          >دامن</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/dresses/"
+                          >لباس مجلسی و پیراهن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-clothing-set/"
+                          >ست لباس زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/underwear/"
+                          >لباس زیر و راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/underwear/bras/"
+                          >سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/panties/"
+                          >شورت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/underwear-set/"
+                          >ست شورت و سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/body-suit/"
+                          >بادی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/homewear/"
+                          >لباس راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/nightwear/"
+                          >لباس خواب زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/foundation-garment/"
+                          >گن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/swimming-suit/"
+                          >مایو زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/shoes-and-bag/"
+                          >کیف زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/bags/"
+                          >کیف دوشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/purse/"
+                          >کیف پول زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/knapsack/"
+                          >کوله پشتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/laptop-bag/"
+                          >کیف اداری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/sports-bag/"
+                          >ساک دستی و ساک ورزشی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/women-shoes/"
+                          >کفش زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/casual/"
+                          >کفش تخت و کژوال زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sports/"
+                          >کفش ورزشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/high-heels/"
+                          >کفش مجلسی و پاشنه بلند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sandal/"
+                          >صندل و دمپایی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/boots/"
+                          >بوت و نیم بوت زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/accessories/"
+                          >اکسسوری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/jewelry/"
+                          >زیورآلات زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/watch/"
+                          >ساعت مچی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/glasses/"
+                          >عینک آفتابی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/accessories/belt/"
+                          >کمربند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hat-gloves/"
+                          >کلاه، دستکش و شال گردن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hair-styling-accessories/"
+                          >اکسسوری مو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/umbrella/"
+                          >چتر زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/socks/"
+                          >جوراب و جوراب شلواری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/keychains/"
+                          >جاکلیدی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown w-100 position-relative">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -68,18 +409,359 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                پوشاک
+                بجه کانه
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+              <ul
+                class="dropdown-menu"
+                style="width: 70vw; position: absolute; right: -20vw !important"
+              >
+                <div class="row w-100">
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/clothes/"
+                          >لباس زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/manto/"
+                          >مانتو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/coat/"
+                          >کت و جلیقه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/sarafan/"
+                          >سارافون و وست زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/scarf/"
+                          >شال و روسری و مقنعه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/trouser/"
+                          >شلوار زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-jacket/"
+                          >کاپشن زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-raincoat/"
+                          >بارانی زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-puffer/"
+                          >پافر زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/knitwear/"
+                          >بافت و سویشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/palto/">
+                          پالتو زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/top"
+                          >تاپ و نیم تنه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/t-shirt/"
+                          >تیشرت و پولوشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/blouse/"
+                          >بلوز زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-tunic/"
+                          >تونیک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/trouser/jumpsuit/"
+                          >سرهمی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shomiz/"
+                          >شومیز</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shorts/"
+                          >شلوارک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/skirt/"
+                          >دامن</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/dresses/"
+                          >لباس مجلسی و پیراهن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-clothing-set/"
+                          >ست لباس زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/underwear/"
+                          >لباس زیر و راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/underwear/bras/"
+                          >سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/panties/"
+                          >شورت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/underwear-set/"
+                          >ست شورت و سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/body-suit/"
+                          >بادی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/homewear/"
+                          >لباس راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/nightwear/"
+                          >لباس خواب زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/foundation-garment/"
+                          >گن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/swimming-suit/"
+                          >مایو زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/shoes-and-bag/"
+                          >کیف زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/bags/"
+                          >کیف دوشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/purse/"
+                          >کیف پول زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/knapsack/"
+                          >کوله پشتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/laptop-bag/"
+                          >کیف اداری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/sports-bag/"
+                          >ساک دستی و ساک ورزشی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/women-shoes/"
+                          >کفش زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/casual/"
+                          >کفش تخت و کژوال زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sports/"
+                          >کفش ورزشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/high-heels/"
+                          >کفش مجلسی و پاشنه بلند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sandal/"
+                          >صندل و دمپایی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/boots/"
+                          >بوت و نیم بوت زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/accessories/"
+                          >اکسسوری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/jewelry/"
+                          >زیورآلات زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/watch/"
+                          >ساعت مچی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/glasses/"
+                          >عینک آفتابی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/accessories/belt/"
+                          >کمربند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hat-gloves/"
+                          >کلاه، دستکش و شال گردن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hair-styling-accessories/"
+                          >اکسسوری مو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/umbrella/"
+                          >چتر زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/socks/"
+                          >جوراب و جوراب شلواری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/keychains/"
+                          >جاکلیدی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown w-100 position-relative">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -87,18 +769,359 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                پوشاک
+                آرایشی و بهداشتی
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+              <ul
+                class="dropdown-menu"
+                style="width: 70vw; position: absolute; right: -20vw !important"
+              >
+                <div class="row w-100">
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/clothes/"
+                          >لباس زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/manto/"
+                          >مانتو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/coat/"
+                          >کت و جلیقه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/sarafan/"
+                          >سارافون و وست زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/scarf/"
+                          >شال و روسری و مقنعه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/trouser/"
+                          >شلوار زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-jacket/"
+                          >کاپشن زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-raincoat/"
+                          >بارانی زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-puffer/"
+                          >پافر زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/knitwear/"
+                          >بافت و سویشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/palto/">
+                          پالتو زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/top"
+                          >تاپ و نیم تنه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/t-shirt/"
+                          >تیشرت و پولوشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/blouse/"
+                          >بلوز زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-tunic/"
+                          >تونیک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/trouser/jumpsuit/"
+                          >سرهمی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shomiz/"
+                          >شومیز</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shorts/"
+                          >شلوارک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/skirt/"
+                          >دامن</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/dresses/"
+                          >لباس مجلسی و پیراهن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-clothing-set/"
+                          >ست لباس زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/underwear/"
+                          >لباس زیر و راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/underwear/bras/"
+                          >سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/panties/"
+                          >شورت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/underwear-set/"
+                          >ست شورت و سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/body-suit/"
+                          >بادی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/homewear/"
+                          >لباس راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/nightwear/"
+                          >لباس خواب زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/foundation-garment/"
+                          >گن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/swimming-suit/"
+                          >مایو زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/shoes-and-bag/"
+                          >کیف زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/bags/"
+                          >کیف دوشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/purse/"
+                          >کیف پول زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/knapsack/"
+                          >کوله پشتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/laptop-bag/"
+                          >کیف اداری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/sports-bag/"
+                          >ساک دستی و ساک ورزشی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/women-shoes/"
+                          >کفش زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/casual/"
+                          >کفش تخت و کژوال زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sports/"
+                          >کفش ورزشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/high-heels/"
+                          >کفش مجلسی و پاشنه بلند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sandal/"
+                          >صندل و دمپایی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/boots/"
+                          >بوت و نیم بوت زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/accessories/"
+                          >اکسسوری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/jewelry/"
+                          >زیورآلات زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/watch/"
+                          >ساعت مچی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/glasses/"
+                          >عینک آفتابی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/accessories/belt/"
+                          >کمربند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hat-gloves/"
+                          >کلاه، دستکش و شال گردن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hair-styling-accessories/"
+                          >اکسسوری مو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/umbrella/"
+                          >چتر زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/socks/"
+                          >جوراب و جوراب شلواری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/keychains/"
+                          >جاکلیدی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown w-100 position-relative">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -106,53 +1129,715 @@
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                پوشاک
+                لوازم جانبی
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+              <ul
+                class="dropdown-menu"
+                style="width: 70vw; position: absolute; right: -20vw !important"
+              >
+                <div class="row w-100">
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/clothes/"
+                          >لباس زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/manto/"
+                          >مانتو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/coat/"
+                          >کت و جلیقه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/sarafan/"
+                          >سارافون و وست زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/scarf/"
+                          >شال و روسری و مقنعه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/trouser/"
+                          >شلوار زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-jacket/"
+                          >کاپشن زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-raincoat/"
+                          >بارانی زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-puffer/"
+                          >پافر زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/knitwear/"
+                          >بافت و سویشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/palto/">
+                          پالتو زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/top"
+                          >تاپ و نیم تنه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/t-shirt/"
+                          >تیشرت و پولوشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/blouse/"
+                          >بلوز زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-tunic/"
+                          >تونیک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/trouser/jumpsuit/"
+                          >سرهمی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shomiz/"
+                          >شومیز</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shorts/"
+                          >شلوارک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/skirt/"
+                          >دامن</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/dresses/"
+                          >لباس مجلسی و پیراهن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-clothing-set/"
+                          >ست لباس زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/underwear/"
+                          >لباس زیر و راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/underwear/bras/"
+                          >سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/panties/"
+                          >شورت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/underwear-set/"
+                          >ست شورت و سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/body-suit/"
+                          >بادی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/homewear/"
+                          >لباس راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/nightwear/"
+                          >لباس خواب زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/foundation-garment/"
+                          >گن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/swimming-suit/"
+                          >مایو زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/shoes-and-bag/"
+                          >کیف زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/bags/"
+                          >کیف دوشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/purse/"
+                          >کیف پول زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/knapsack/"
+                          >کوله پشتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/laptop-bag/"
+                          >کیف اداری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/sports-bag/"
+                          >ساک دستی و ساک ورزشی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/women-shoes/"
+                          >کفش زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/casual/"
+                          >کفش تخت و کژوال زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sports/"
+                          >کفش ورزشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/high-heels/"
+                          >کفش مجلسی و پاشنه بلند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sandal/"
+                          >صندل و دمپایی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/boots/"
+                          >بوت و نیم بوت زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/accessories/"
+                          >اکسسوری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/jewelry/"
+                          >زیورآلات زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/watch/"
+                          >ساعت مچی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/glasses/"
+                          >عینک آفتابی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/accessories/belt/"
+                          >کمربند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hat-gloves/"
+                          >کلاه، دستکش و شال گردن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hair-styling-accessories/"
+                          >اکسسوری مو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/umbrella/"
+                          >چتر زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/socks/"
+                          >جوراب و جوراب شلواری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/keychains/"
+                          >جاکلیدی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </ul>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown w-100 position-relative">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
-              >
-                پوشاک
+                >سوپرمارکت
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+              <ul
+                class="dropdown-menu"
+                style="width: 70vw; position: absolute; right: -20vw !important"
               >
-                پوشاک
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
+                <div class="row w-100">
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/clothes/"
+                          >لباس زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/manto/"
+                          >مانتو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/coat/"
+                          >کت و جلیقه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/sarafan/"
+                          >سارافون و وست زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/scarf/"
+                          >شال و روسری و مقنعه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/trouser/"
+                          >شلوار زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-jacket/"
+                          >کاپشن زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-raincoat/"
+                          >بارانی زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-puffer/"
+                          >پافر زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/knitwear/"
+                          >بافت و سویشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/palto/">
+                          پالتو زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/top"
+                          >تاپ و نیم تنه زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/t-shirt/"
+                          >تیشرت و پولوشرت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/blouse/"
+                          >بلوز زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-tunic/"
+                          >تونیک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/trouser/jumpsuit/"
+                          >سرهمی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shomiz/"
+                          >شومیز</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/shorts/"
+                          >شلوارک زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/skirt/"
+                          >دامن</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/clothes/dresses/"
+                          >لباس مجلسی و پیراهن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/clothes/womens-clothing-set/"
+                          >ست لباس زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/underwear/"
+                          >لباس زیر و راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/underwear/bras/"
+                          >سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/panties/"
+                          >شورت زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/underwear-set/"
+                          >ست شورت و سوتین زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/body-suit/"
+                          >بادی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/homewear/"
+                          >لباس راحتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/nightwear/"
+                          >لباس خواب زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/foundation-garment/"
+                          >گن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/underwear/swimming-suit/"
+                          >مایو زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/shoes-and-bag/"
+                          >کیف زنانه
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/bags/"
+                          >کیف دوشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/purse/"
+                          >کیف پول زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/knapsack/"
+                          >کوله پشتی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/laptop-bag/"
+                          >کیف اداری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/shoes-and-bag/sports-bag/"
+                          >ساک دستی و ساک ورزشی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/women-shoes/"
+                          >کفش زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/casual/"
+                          >کفش تخت و کژوال زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sports/"
+                          >کفش ورزشی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/high-heels/"
+                          >کفش مجلسی و پاشنه بلند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/sandal/"
+                          >صندل و دمپایی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/women-shoes/boots/"
+                          >بوت و نیم بوت زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-4">
+                    <ul>
+                      <li class="titleLi">
+                        <a class="dropdown-item" href="/women/accessories/"
+                          >اکسسوری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/jewelry/"
+                          >زیورآلات زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/watch/"
+                          >ساعت مچی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/glasses/"
+                          >عینک آفتابی زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="/women/accessories/belt/"
+                          >کمربند زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hat-gloves/"
+                          >کلاه، دستکش و شال گردن زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/hair-styling-accessories/"
+                          >اکسسوری مو زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/umbrella/"
+                          >چتر زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/socks/"
+                          >جوراب و جوراب شلواری زنانه</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dropdown-item"
+                          href="/women/accessories/keychains/"
+                          >جاکلیدی زنانه</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </ul>
             </li>
           </ul>
@@ -346,7 +2031,7 @@
       <div class="container-lg mt-10 d-flex flex-row">
         <div class="swiper Swiper-res-2">
           <div class="swiper-wrapper d-flex align-items-center">
-            <div class="swiper-slide overflow-hidden p-5 h-100 rounded-5">
+            <div class="swiper-slide overflow-hidden h-100 rounded-5">
               <a
                 style="
                   width: 150%;
@@ -639,368 +2324,368 @@
           alt=""
         />
       </div>
-      <div
-        class="container-lg mt-10 d-flex flex-column flex-md-row justify-content-between align-items-center px-5"
-      >
+      <div class="container-lg mt-10 row row-gap-2 g-3 p-0 mx-auto">
         <div
           id="swiper-dokmeh"
-          class="d-flex justify-content-center align-items-center flex-row flex-md-column my-2 mx-2 rounded-2 gap-5"
+          class="col-12 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-around align-items-center flex-row flex-md-column rounded-2 gap-5"
         >
           <span class="text-nowrap">ارزون‌تر از همه‌جا</span>
-          <a class="btn text-center text-nowrap" href="#"> مشاهده همه</a>
+          <a class="btn text-center text-nowrap" href="#">مشاهده همه</a>
         </div>
-        <div class="swiper Swiper-res-3">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
-                    <div
-                      class="discount text-black text-decoration-line-through"
-                    >
-                      2,987,000
+        <div class="col-12 col-md-8 col-lg-9 col-xl-10">
+          <div class="swiper Swiper-res-3 w-100 h-100">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
+                    <div
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
+                    >
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
+                    </div>
+                  </div></a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="container-lg mt-10 d-flex flex-column flex-md-row justify-content-center align-items-center px-5"
-      >
+      <div class="container-lg mt-10 row row-gap-2 g-3 p-0 mx-auto">
         <div
           id="swiper-dokmeh"
-          class="d-flex justify-content-center align-items-center flex-row flex-md-column my-2 mx-2 rounded-2 gap-5"
+          class="col-12 col-md-4 col-lg-3 col-xl-2 d-flex justify-content-around align-items-center flex-row flex-md-column rounded-2 gap-5"
         >
           <span class="text-nowrap">برند Deep Sense</span>
           <a class="btn text-center text-nowrap" href="#"> مشاهده همه</a>
         </div>
-        <div class="swiper Swiper-res-3">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
-                    <div
-                      class="discount text-black text-decoration-line-through"
-                    >
-                      2,987,000
+        <div class="col-12 col-md-8 col-lg-9 col-xl-10">
+          <div class="swiper Swiper-res-3 w-100 h-100">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
-            </div>
-            <div class="swiper-slide">
-              <a
-                class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
-                href="#"
-                ><div class="card">
-                  <img
-                    src="./public/img/ch0403_1_.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <p class="card-text">
-                      عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
-                  >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
                     <div
-                      class="discount text-black text-decoration-line-through"
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
                     >
-                      2,987,000
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
                     </div>
-                    <div class="price text-success">896,100 تومان</div>
-                  </div>
-                </div></a
-              >
+                  </div></a
+                >
+              </div>
+              <div class="swiper-slide">
+                <a
+                  class="d-flex flex-column justify-content-center align-items-center text-decoration-none text-black"
+                  href="#"
+                  ><div class="card">
+                    <img
+                      src="./public/img/ch0403_1_.jpg"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text">
+                        عطر زنانه اجمل Ajmal مدل Sacrifice حجم 50ml
+                      </p>
+                    </div>
+                    <div
+                      class="card-footer bg-transparent border-white d-flex flex-column justify-content-center align-items-center gap-2"
+                    >
+                      <div
+                        class="discount text-black text-decoration-line-through"
+                      >
+                        2,987,000
+                      </div>
+                      <div class="price text-success">896,100 تومان</div>
+                    </div>
+                  </div></a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -1185,11 +2870,11 @@
         </div>
       </div>
       <div
-        class="container d-flex justify-content-center align-items-center row"
+        class="container d-flex justify-content-center align-items-center row mx-auto"
       >
-        <div class="p-4 pb-5 col-12 col-md-6">
+        <div class="p-4 pb-5 col-12 col-md-8">
           <h2 class="h2">فروشگاه اینترنتی مدیسه</h2>
-          <p class="paragraph fs-5 text-center mb-3">
+          <p class="paragraph fs-5 text-right mb-3">
             فروشگاه اینترنتی مدیسه که فعالیت خود را سال ۱۳۹۴ آغاز کرده، امروز به
             یک فروشگاه چندمنظوره پویا و جامع تبدیل شده است. ما در مدیسه افتخار
             داریم که طیف گسترده‌ای از محصولات شامل پوشاک و لوازم متنوع برای
@@ -1220,7 +2905,7 @@
           <div id="collapse-text" class="collapse"></div>
         </div>
         <div
-          class="col-12 col-md-6 d-flex justify-content-center align-items-center pt-5"
+          class="col-12 col-md-4 d-flex justify-content-center align-items-center pt-5"
           id="loh"
         >
           <img src="./public/img/11-80.png" alt="" />
@@ -1329,6 +3014,7 @@
         </a>
       </div>
     </main>
+    <!-- footer -->
     <footer class="container-fluid">
       <div class="row">
         <div class="col-8 col-md-3">
@@ -1543,7 +3229,6 @@
         >
       </div>
     </footer>
-    <!-- footer -->
     <script src="./node_modules/swiper/swiper-bundle.min.js"></script>
     <script src="./src/js/swiper.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -17,9 +17,10 @@
   border-radius: 8px;
   .card-text {
     display: -webkit-box;
-    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    -webkit-line-clamp: 1;
+    line-clamp: 1;
   }
   img {
     border-radius: 16px;
@@ -45,28 +46,9 @@
     }
   }
 }
-@media screen and (max-width: 760px) {
-  #swiper-dokmeh {
-    height: 320px;
-    width: 270px;
-  }
-}
-@media screen and (min-width: 760px), (max-width: 1023px) {
-  #swiper-dokmeh {
-    height: fit-content;
-    width: fit-content;
-    border: 1px solid #ababab;
-  }
-}
-@media screen and (min-width: 1024px) {
-  #swiper-dokmeh {
-    height: 100%;
-    width: fit-content;
-    border: 1px solid #ababab;
-  }
-}
 #swiper-dokmeh {
   padding: 10px;
+  border: 1px solid #ababab;
   a {
     color: #fff;
     background-color: #bc264b;

@@ -20,6 +20,10 @@ var swiper = new Swiper(".Swiper-res-1", {
       slidesPerView: 4.5,
       spaceBetween: 10,
     },
+    1280: {
+      slidesPerView: 9,
+      spaceBetween: 10,
+    },
   },
 });
 var swiper = new Swiper(".Swiper-res-2", {
@@ -31,11 +35,15 @@ var swiper = new Swiper(".Swiper-res-2", {
   },
   breakpoints: {
     425: {
-      slidesPerView: 2,
+      slidesPerView: 3,
       spaceBetween: 10,
     },
-    1000: {
-      slidesPerView: 4,
+    1020: {
+      slidesPerView: 5,
+      spaceBetween: 10,
+    },
+    1200: {
+      slidesPerView: 6,
       spaceBetween: 10,
     },
   },
